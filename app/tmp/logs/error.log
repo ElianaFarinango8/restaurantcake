@@ -1,0 +1,32 @@
+2014-09-18 14:13:44 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-18 14:14:16 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/3
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-18 14:30:09 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp, line 5]
+2014-09-18 14:30:09 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
